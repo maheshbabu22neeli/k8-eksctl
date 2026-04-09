@@ -43,4 +43,6 @@ eksctl create cluster --config-file=eksctl.yaml
 ## Delete k8-cluster
 ```shell
 eksctl delete cluster --config-file=eksctl.yaml
+or
+eksctl delete cluster --region=us-east-1 --name=roboshop
 ```
