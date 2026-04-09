@@ -2,7 +2,7 @@
 Create EKS Cluster
 
 ## Install Eks-Ctl in k8-workstation
-Using eks-ctl we can install EKS Cluster
+Using eks-ctl we can create, delete and update EKS Cluster. 
 ```shell
 ARCH=amd64
 PLATFORM=$(uname -s)_$ARCH
