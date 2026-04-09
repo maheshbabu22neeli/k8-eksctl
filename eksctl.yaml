@@ -9,18 +9,6 @@ metadata:
 
 managedNodeGroups:
   - name: spot
-    instanceTypes:
-      - t3.medium
-      - t3a.medium
-      - m5.large
-      - m5a.large
-      - m6i.large
-      - m6a.large
-      - m7i-flex.large
-      - c5.large
-      - c5a.large
-      - c6i.large
-      - c6a.large
-      - c7i-flex.large
+    instanceTypes: ["c3.large","c4.large","c5.large","c5d.large","c5n.large","c5a.large","m7i-flex.large","c7i-flex.large"]
     spot: true
     desiredCapacity: 2
